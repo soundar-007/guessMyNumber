@@ -12,7 +12,6 @@ function Number() {
   random = Math.floor(Math.random() * 20) + 1;
 }
 Number();
-console.log(random);
 check.addEventListener('click', () => {
   //when input is correct
   if (input.value !== '') {
@@ -55,5 +54,5 @@ document.querySelector('.again').addEventListener('click', () => {
   document.body.style.backgroundColor = '#222';
   number.textContent = '?';
   Number();
-  console.log(random);
+  
 });
